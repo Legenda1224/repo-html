@@ -1,0 +1,325 @@
+
+.iiii img{
+	
+	padding:0;
+	margin:0;
+	position:relative;
+	top:-60px;
+	width:120px;
+	height:50px;
+
+}
+
+.header{
+position:fixed;
+top:63px;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	
+}
+
+nav{
+	
+	display:table;
+	margin:0 auto;
+	
+}
+.menu li{
+	
+	float:left;
+	position:relative;
+	width:220px;
+	background:#211f1f;
+
+}
+
+.menu a{
+	border:1px solid ;
+	text-align:center;
+	color:#a9ada8;
+	display:block;
+	line-height:40px;
+	text-decoration:none;
+
+	
+}
+.menu a:hover{
+
+	color:white;
+}
+.submenu a:hover{
+	background-color:;
+	color:white;
+}
+.menu .submenu{
+	
+	left:0;
+	top:100%;
+	position:absolute;
+	display:none;
+}
+.menu li:hover .submenu {
+	display:block;
+} 
+
+#p1{
+	
+	padding-right:200px;
+	margin-right:-200px;
+	
+}
+#p2{
+	padding-right:200px;
+
+	
+	margin-right:-210px;
+}
+
+#p3{
+	padding-right:200px;
+	margin-right:-210px;
+}
+
+#p4{
+	padding-right:200px;
+	margin-right:-210px;
+	
+}
+
+#p5{
+	padding-right:200px;
+	margin-right:-200px;
+}
+
+#p6{
+	padding-right:230px;
+	margin-right:-230px;
+}
+
+.main{
+left:-25px;
+top:115px;
+margin:0;
+padding:0;
+position:relative;
+background-color:#edebeb;
+width:1360px;
+height:2450px;
+}
+.ul0{
+	position:relative;
+	top:-600px;
+	font-size:45px;
+	text-align:center;
+	font-style:italic;
+	color:#5ec255;
+	left:-8px;
+	padding-top:80px;
+	
+}
+.ull{
+	font-size:45px;
+	text-align:center;
+	font-style:italic;
+	color:#5ec255;
+	left:-8px;
+	padding-top:80px;
+
+	
+}
+.ul2{
+	margin-top:40px;
+	right:-30px;
+	top:75px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:330px;
+}
+.ul3{
+	
+	right:-360px;
+	top:-256px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:330px;
+}
+.ul4{
+	right:-690px;
+	top:-587px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:330px;
+}
+
+
+.ul5{
+	right:-1020px;
+	top:-1049px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:330px;
+}
+.ul7{
+	right:-30px;
+	top:-1190px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:330px;
+}
+.ul6{
+	right:-360px;
+	top:-860px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:330px;
+}
+.ul8{
+	right:-690px;
+	top:-1520px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:330px;
+}
+.ul9{
+	right:-1020px;
+	top:-1850px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:330px;
+}
+.u24{
+	position:relative;
+	top:-1840px;
+	font-size:45px;
+	text-align:center;
+	font-style:italic;
+	color:#5ec255;
+	left:-8px;
+	padding-top:80px;
+	
+}
+.u20{
+	right:-30px;
+	top:-1730px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:440px;
+}
+.u21{
+	right:-360px;
+	top:-2170px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:440px;
+}
+.u22{
+	right:-690px;
+	top:-2610px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:440px;
+}
+.u23{
+	right:-1020px;
+	top:-3050px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:440px;
+}
+.u29{
+	position:relative;
+	top:-3070px;
+	font-size:45px;
+	text-align:center;
+	font-style:italic;
+	color:#5ec255;
+	left:-8px;
+	padding-top:80px;
+}
+
+.u25{
+	right:-30px;
+	top:-3030px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:440px;
+}
+.u26{
+	right:-360px;
+	top:-3470px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:440px;
+}
+.u27{
+	right:-690px;
+	top:-3910px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:440px;
+}
+.u28{
+	right:-1020px;
+	top:-4350px;
+	background-color:white;
+	position:relative;
+	width:300px;
+	height:440px;
+}
+
+
+
+#vi{
+	position:relative;
+	font-size:21px;
+	top:-8px;
+	
+}
+div a{
+	color:#5ec255;
+}
+
+div img{
+	width:300px;
+	height:180px;
+}
+.footer{
+	right:8px;
+    top:115px;
+	position:relative;
+	padding:0;
+	background-color:black;
+	width:1343px;
+	height:600px;
+}
+footer, nav{
+	
+}
+#th{
+	border:1px solid white;
+	color:white;
+}
+#td{
+	color:green;
+}
