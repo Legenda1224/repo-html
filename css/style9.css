@@ -107,7 +107,7 @@ h3{
 .conteiner #knopka a:hover{
 	box-shadow:0px 0px 8px 8px;
 }
-
+/*
 
 @keyframes anim{
 	0%{
@@ -179,7 +179,7 @@ h3{
 
 	}
 }
-
+*/
 
 .block1{
 	margin-top:-50px;
@@ -627,65 +627,86 @@ h3{
 
 @media screen and (max-width: 992px){
 
-	
-	.conteiner header{
-		top:30px;
-		left:5%;
-		margin:18px;
-		position:absolute;
-		font-family:arial black;
-		font-size:32px;
+	.black{
 		color:white;
-}
-	.conteiner{
+		position:relative;
+		width:1120px;
+		background-color:black;
+		height:1000px;
+	}
+	.black header{
+		padding-top:100px;
 		display:flex;
 		justify-content:center;
-		width:1238px;
-		height:700px;
-		
+		font-size:6em;
 	}
-	 h3{
-		 display:flex;
-		 justify-content:center;
-		 align-items:center;
-		text-align:center;
-		font-size:60px;
-	}
-nav a{
+
+
+#nav a{
+	
 	transition:color .2s linear;
-	font-size:19px;
-	font-family:arial black;
+	font-size:60px;
+	font-family:arial;
 	text-decoration:none;
 	color:white;
 }
 
-nav ul{
-	display:flex;
+#nav ul{
+	
+	display:block;
 	list-style:none;
 }
  
-nav li{
-	position:relative;
-	top:20px;
-	left:750px;
-	width:120px;
-	margin:20px 0px;
+#nav li{
+	display:block;
+	top:0px;
+	left:410px;
+	margin:60px 0px;
 }
-
-nav li:hover a{
+#nav li:hover a{
 	transition: color .3s linear;
 	color:gold;
 }
+.img_fluid{
+	position:absolute;
+	top:70%;
+	left:40%;
+}
+
+.img_fluid img ,a{
+	margin:10px;
+	border-radius:100%;
+	width:100px;
+	height:100px;
+
+}
+
+.conteiner header{
+	display:none;
+
+}
+.conteiner{
+	transform:scale(1.1);
+	margin-top:0px;
+	width:1068px;
+	height:850px;
+		
+}
+
+nav li{
+	display:none;
+
+}
+
 
 .conteiner h3{
-	top:180px;
+	top:0px;
 	position:absolute;
-	
 	height:100px;
-	width:550px;
+	width:700px;
 	color:white;
 	font-family:century;
-	font-size:55px;
+	font-size:85px;
 }
 h3{
 	position:relative;
@@ -703,7 +724,7 @@ h3{
 	animation-timing-function:ease;
 }
 
-#knopka a {
+#knopka a{
 	position:relative;
 	animation-name:anim3;
 	animation-duration:2.5s;
@@ -711,29 +732,29 @@ h3{
 	animation-timing-function:ease;
 }
 .conteiner #pod_h3{
-	left:-190px;
+	width:900px;
+	left:0px;
 	width:;
-	top:20px;
-	position:relative;
+	top:-100px;
 	text-align:center;
 	color:white;
 	font-family:arial;
-	font-size:20px;
+	font-size:39px;
 }
 
-
 .conteiner #knopka a{
-	line-height:50px;
+	
+	line-height:100px;
 	transition:.4s;
 	text-decoration:none;
 	border-radius:12px;
 	padding:5px 45px;
-	top:450px;
-	left:39%;
+	top:500px;
+	left:28%;
 	position:absolute;
 	text-align:center;
-	font-size:20px;
-	width:220px;
+	font-size:36px;
+	width:400px;
 	color:white;
 	background:orange;
 }
@@ -748,83 +769,79 @@ h3{
 .block1{
 	top:-1px;
 	position:relative;
-	width:1238px;
+	width:1122px;
+	height:1900px;
 	
 }
 .block1 h3{
-	font-size:40px;
-	display:inline-block;
-	margin-top:0px;
+	position:absolute;
+	text-align:left;
+	width:400px;
+	font-size:80px;
+	margin-top:-500px;
 	
 }
 .block1 p{
+	margin-top:-250px;
+	width:800px;
+	font-size:50px;
+}
 
-	font-size:20px;
+.img img{
+	flex-direction:column;
+	flex-wrap:wrap;
+	background-color:red;
+	
+}
+.img img,#img1,#img2{
+	position:relative;
+	width:320px;
+	height:320px;
+	top:850px;
+	left:-625px;
+	margin:30px;
+	
+}
+#img1{
+
+	position:absolute;
+	top:1220px;
+}
+#img2{
+
+	left:-245px;
+	position:absolute;
+	top:1220px;
 }
 .block2{
-	width:1238px;
+	width:1128px;
+	height:1800px;
 	
 }
 
+.block2 h3{
+	font-size:90px;
 }
 
 
-@media screen and (max-width: 768px){
-
-	
-.conteiner header{
-	top:30px;
-	left:5%;
-	margin:18px;
+.block2 .h3_1{
+	top:820px;
 	position:absolute;
-	font-family:arial black;
-	font-size:72px;
-	color:white;
+	background-color:red;
+	width:860px;
+	font-size:90px;
 }
-.conteiner{
-	display:flex;
-	justify-content:center;
-	width:1238px;
-	height:700px;	
-}
+.block2 #pod_h3_1{
+	font-size:50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#p_img3{
+	position:relative;
+	top:-100px;
+	left:410px;
+	width:300px;
+	height:300px;
+}
 
 
 
@@ -1054,17 +1071,7 @@ h3{
 	font-family:arial;
 }
 
-.img_fluid{
-	position:absolute;
-	top:70%;
-	left:42%;
-}
 
-.img_fluid img, a{
-	width:50px;
-	height:50px;
-
-}
 
 
 
