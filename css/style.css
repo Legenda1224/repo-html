@@ -850,12 +850,12 @@ font-size:13px;
 
 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 768px){
 .block1{
 	background-color:red;
 	margin-top:-15px;
-	width:450px;
-	height:400px;
+	width:470px;
+	height:300px;
 }
 
 /*Меню*/
@@ -865,30 +865,32 @@ font-size:13px;
 }
 
 .menu .pod_menu{
-	left:160px;
-	top:40px;
+	position:relative;
+	left:180px;
+	top:10px;
 	margin:15px;
 }
 
 .menu .pod_menu a{
-	font-size:24px;
 	font-family:sans-serif;
 	text-decoration:none;
 	color:black;
 }
 
-
+.menu2{
+	display:inline-flex;
+}
 
 .menu2 .pod_menu2{
-
-	left:50px;
-	top:30px;
+	position:relative;
+	left:100px;
+	top:10px;
 	margin:25px;
 }
 
 
 .menu2 .pod_menu2 {
-	font-size:26px;
+	font-size:18px;
 	font-family:sans-serif;
 	text-decoration:none;
 	color:black;
@@ -900,13 +902,13 @@ font-size:13px;
 .menu2 .pod_menu2_border{
 	padding-top:20px;
 	position:absolute;
-	left:110px;
-	top:270px;
+	left:145px;
+	top:190px;
 	margin:25px;
 }
 
 .menu2 .pod_menu2_border a{
-	font-size:23px;
+	font-size:13px;
 	transition:.4s;
 	border-radius:6px;
 	padding:5px 20px;
@@ -926,15 +928,14 @@ font-size:13px;
 
 .block2{
 	position:relative;
-	width:450px;
+	width:470px;
 	height:765px;
 	
 }
 
 #img1{
-	position:absolute;
-	top:0px;
-	left:0px;
+	margin-top:15px;
+	margin-left:6px;
 	width:440px;
 	height:440px;
 }
@@ -978,7 +979,7 @@ font-size:13px;
 /*Услуги*/
 
 .block3{
-	width:450px;
+	width:470px;
 	height:800px;
 }
 
@@ -1052,7 +1053,7 @@ font-size:13px;
 .block4{
 	margin-top:-41px;
 	background-color:#fafafa;
-	width:450px;
+	width:470px;
 	height:900px;
 }
 .razmer2{
@@ -1093,7 +1094,7 @@ font-size:13px;
 
 
 .block5{
-	width:450px;
+	width:470px;
 	height:750px;
 }
 
@@ -1127,7 +1128,7 @@ font-size:13px;
 
 .block6{
 	background-color:#fafafa;
-	width:450px;
+	width:470px;
 	height:1770px;
 }
 
@@ -1191,7 +1192,7 @@ font-size:13px;
 
 
 .block7{
-	width:450px;
+	width:470px;
 	height:700px;
 }
 
@@ -1259,6 +1260,436 @@ font-size:13px;
 
 .input .knopka4{
 	margin-left:0px;
+	padding-top:25px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width:576px){
+.block1{
+	
+	margin-top:-15px;
+	width:329px;
+	height:400px;
+}
+
+/*Меню*/
+
+.menu{
+	display:block;
+}
+
+.menu .pod_menu{
+	
+	left:110px;
+	top:40px;
+	margin:15px;
+}
+
+.menu .pod_menu a{
+	font-size:19px;
+	font-family:sans-serif;
+	text-decoration:none;
+	color:black;
+}
+
+
+
+.menu2 .pod_menu2{
+	left:30px;
+	top:30px;
+	margin:25px;
+}
+
+
+.menu2 .pod_menu2 {
+	font-size:19px;
+	font-family:sans-serif;
+	text-decoration:none;
+	color:black;
+
+}
+
+/*Кнопка Записаться*/
+
+.menu2 .pod_menu2_border{
+	padding-top:0px;
+	position:absolute;
+	left:70px;
+	top:270px;
+	margin:25px;
+}
+
+.menu2 .pod_menu2_border a{
+	font-size:15px;
+	transition:.4s;
+	border-radius:6px;
+	padding:5px 20px;
+	text-transform:uppercase;
+	border:2px solid blue;
+	text-decoration:none;
+	color:blue;
+	font-family:sans-serif;
+
+}
+.menu2 .pod_menu2_border:hover a{
+	background:blue;
+	color:white;
+
+}
+
+
+.block2{
+	position:relative;
+	width:329px;
+	height:765px;
+	
+}
+
+#img1{
+	position:absolute;
+	top:0px;
+	left:8px;
+	width:300px;
+	height:450px;
+}
+
+.fon{
+	color:white;
+	top:470px;
+	left:15px;
+	position:absolute;
+	width:300px;
+	height:350px;
+	background-color:#2d41f7;
+}
+
+.fon h3{
+	font-family:arial;
+	width:350px;
+	font-size:39px;
+}
+.fon p{
+	line-height:20px;
+	font-family:sentury;
+	font-size:14px;
+	width:290px;
+}
+
+.fon span{
+	line-height:0px;
+	width:260px;
+	font-family:arial;
+	font-size:14px;
+}
+
+.fon .left_top{
+	width:450px;
+	position:absolute;
+	top:0px;
+	left:10px;
+	
+}
+/*Услуги*/
+
+.block3{
+	width:329px;
+	height:870px;
+}
+
+.block3 .razmer{
+	top:80px;
+	position:relative;
+	
+}
+
+.razmer h3{
+	text-align:center;
+	font-size:36px;
+	font-family:arial;
+}
+.razmer1_2{
+	margin-top:100px;
+	margin-left:15px;
+	width:440px;
+}
+.razmer1_2 p{
+	padding-bottom:30px;
+	position:relative;
+	left:0px;
+	line-height:20px;
+	font-family:roboto;
+	font-size:17px;
+	width:290px;
+}
+
+.razmer1_2 span{
+	width:290px;
+	position:relative;
+	left:0px;
+	line-height:20px;
+	display:flex;
+	justify-content:center;
+	font-family:roboto;
+	font-size:17px;
+}
+.razmer1_2 h6{
+font-size:13px;
+	
+}
+
+.razmer .knopka a{
+	flex-wrap:wrap;
+	display:flex;
+	font-family:arial;
+	padding:10px 10px;
+	text-decoration:none;
+	font-size:17px;
+	color:whit;
+	text-align:center;
+	background:#2d41f7;
+	border-radius:7px;
+	transition:.4s;
+	width:150px;
+}
+.razmer .knopka:hover a{
+	border:1px solid #2d41f7;
+	background:white;
+	color:blue;
+}
+
+.razmer .knopka{
+	position:absolute;
+	margin-left:75px;
+	margin-top:60px;
+}
+
+
+
+
+.block4{
+	margin-top:-41px;
+	background-color:#fafafa;
+	width:329px;
+	height:900px;
+}
+.razmer2{
+	
+}
+.pod_block4 h3{
+	padding-top:110px;
+	font-family:roboto;
+	color:black;
+	text-align:center;
+	font-size:35px;
+}
+.pod_block4{
+	
+}
+
+.razmer2 .text{
+	padding-top:50px;
+	margin-left:35px;
+	width:400px;
+	height:160px;
+	font-size:20px;
+	font-family:roboto;
+	width:260px;
+}
+
+.razmer3 p{
+	padding-bottom:18px;
+	line-height:20px;
+	margin-left:35px;
+	width:400px;
+	font-family:roboto;
+	font-size:20px;
+	width:260px;
+}
+
+
+
+
+
+
+.block5{
+	margin-top:200px;
+	width:329px;
+	height:750px;
+}
+
+
+.razmer4 h3{
+	padding-top:90px;
+	text-align:center;
+	font-size:37px;
+	font-family:roboto;
+}
+
+.razmer4 p{
+	padding-bottom:80px;
+	line-height:28px;
+	text-align:center;
+	font-size:21px;
+	font-family:roboto;
+}
+
+.text2{
+	display:flex;
+	flex-wrap:wrap;
+	margin-left:15px;
+	padding-top:25px;
+	padding-bottom:20px;
+	width:250px;
+	font-size:21px;
+	font-family:roboto;
+	border-bottom:1px solid black;
+}
+
+
+
+.block6{
+	margin-top:350px;
+	background-color:#fafafa;
+	width:329px;
+	height:1450px;
+}
+
+.razmer5 h3{
+	padding-top:120px;
+	text-align:center;
+	font-size:27px;
+	font-family:roboto;
+}
+
+.razmer_img {
+	margin-left:0px;
+	flex-direction:column;
+}
+
+.razmer_img img{
+	width:295px;
+	margin:18px;
+}
+
+.razmer5 h4{
+	margin-top:-5px;
+	margin-left:20px;
+	font-size:18px;
+}
+
+.razmer5 p{
+	margin-top:-5px;
+	margin-left:20px;
+	font-family:roboto;
+	font-size:15px;
+	margin-bottom:60px;
+}
+
+
+
+
+
+.razmer5 .knopka2 a{
+	font-family:roboto;
+	padding:15px 55px;
+	text-decoration:none;
+	font-size:16px;
+	color:white;
+	text-align:center;
+	background:black;
+	border-radius:7px;
+	transition:.4s;
+}
+.razmer5 .knopka2:hover a{
+	border:1px solid black;
+	background:white;
+	color:black;
+}
+
+.razmer5 .knopka2{
+	position:absolute;
+	margin-left:35px;
+	margin-top:40px;
+}
+
+
+.block7{
+	width:329px;
+	height:730px;
+}
+
+.razmer6{
+	margin-left:0px;
+}
+.block7 h3{
+	padding-top:50px;
+	font-family:roboto;
+	text-align:center;
+	font-size:35px;
+}
+
+
+.razmer6 p{
+	text-align:center;
+	padding-top:0px;
+	font-family:roboto;
+	font-size:20px;
+}
+
+
+.block7 span{
+	margin-top:-100px;
+	display:flex;
+	margin-left:20px;
+	text-align:center;
+	font-family:roboto;
+	font-size:16px;
+	width:280px;
+}
+
+
+
+.input{
+	position:relative;
+	margin-left:10px;
+	margin-top:100px;
+}
+.input input{
+	border:1px solid gray;
+	font-size:15px;
+	margin-bottom:16px;
+	width:240px;
+	height:60px;
+	padding:0px 25px;
+	
+
+}
+
+.input .knopka4 a{
+	font-family:roboto;
+	padding:15px 5px;
+	text-decoration:none;
+	font-size:17px;
+	color:white;
+	text-align:center;
+	background:#2d41f7;
+	border-radius:7px;
+	transition:.4s;
+}
+
+.input .knopka4:hover a{
+	background:white;
+	color:#2d41f7;
+	border:1px solid #2d41f7;
+}
+
+.input .knopka4{
+	margin-left:30px;
 	padding-top:25px;
 }
 
