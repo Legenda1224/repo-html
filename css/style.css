@@ -656,7 +656,7 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: #75ACFF;
-    width: 670px;
+    width: 355px;
     height: 50px;
 }
 header h3 a{
@@ -690,12 +690,11 @@ header h3 a:hover{
 .container{
     border-radius:10px;
     background-color: white;
-    width: 650px;
-    max-width: 550px;
+    width: 355px;
+    max-width: 370px;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 50px;
-    margin-left: 60px;
 }
 
 
@@ -798,7 +797,7 @@ ul li{
 
 
 .footer{
-	width: 100%;
+	width: 355px;
     background-color: black;
 }
 
@@ -806,25 +805,25 @@ ul li{
 /*footer*/
 
 footer{
-	width: 650px;
+	width: 355px;
     background-color: black;
 }
 
 .footer{
-    width: 650px;
+    width: 355px;
 }
 .header{
     font-family: arial;
     font-weight: bold;
     font-size: 21px;
-    height: 340px;
+    height: 480px;
 	color: white;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
     flex-wrap: wrap;
 	padding: 15px 10%;
-    max-width: 650px;
+    max-width: 320px;
     margin: 0 auto;
 }
 
@@ -847,9 +846,9 @@ footer{
 
 input{
     transition: 0.3s ease-in-out;
-    margin: 8px 195px;
+    margin: 8px 30px;
     padding: 10px;
-    width: 110px;
+    width: 120px;
     background: none;
     border-radius: 6px;
     text-align: center;
@@ -885,12 +884,13 @@ input:focus{
 
 .pod_footer{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: 650px;
+    width: 355px;
     border-top: 2px solid white;
 }
 .pod_footer p{
+    margin-left: 35px;
     font-size: 14px;
     line-height: 23px;
     padding-top: 10px;
@@ -900,7 +900,7 @@ input:focus{
 }
 }
 
-@media screen and (max-width: 350px){
+ @media screen and (max-width: 350px){
     /*Menu*/ 
 
 header{
@@ -1152,4 +1152,4 @@ input:focus{
     font-family: sans-serif;
 
 }
-}
+} 
