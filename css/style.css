@@ -900,3 +900,256 @@ input:focus{
 }
 }
 
+@media screen and (max-width: 500px){
+    /*Menu*/ 
+
+header{
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #75ACFF;
+    width: 320px;
+    height: 50px;
+}
+header h3 a{
+    font-family: arial;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: .4s ease;
+}
+header h3 a:hover{
+    opacity: 0.6;
+}
+.nav_links li{
+   list-style: none;
+}
+
+.nav_links li a{
+   font-size: 18px;
+   color: white;
+   text-decoration: none;
+   transition: color 0.3s ease;
+ }
+
+.nav_links li a:hover{
+    color: #75ACFF;
+ }
+
+
+ /*conainer*/
+
+.container{
+    border-radius:10px;
+    background-color: white;
+    width: 330px;
+    max-width: 370px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.d-flex_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    border-right:1px solid white ;
+    padding: 15px 0px;
+    transition: 0.3s ease-in-out;
+}
+
+.text a{
+    padding: 10px 27px;
+    font-size: 14px;
+    font-family:arial;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.text:hover{
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: .5;
+
+}
+
+
+/*istopiya*/
+
+
+.istoriya{
+    max-width: 850px;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.istoriya h3{
+    padding-top:60px;
+    text-align: center;
+    font-family:arial ;
+    font-size: 16px;
+}
+
+.istoriya p{
+    margin-right: 60px;
+    margin-left: 60px;
+    font-family:sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+
+/*table*/
+
+table{
+    display: none;
+}
+.table{
+    display: none;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-family: arial;
+    text-align: center;
+    padding: 20px;
+    width:260px ;
+    height: 30px;
+}
+
+.table_links{
+    display: none;
+    line-height: 28px;
+}
+.table_links2{
+    display: none;
+    margin-top: -37px;
+    line-height: 28px;
+}
+
+p a{
+    text-decoration: none;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
+
+ul li{
+    margin-right: 60px;
+    margin-left: 38px;
+    line-height: 28px;
+    padding: 5px;
+    font-family: lora,serif;
+    font-size: 17px;
+}
+
+
+.footer{
+	width: 100%;
+    background-color: black;
+}
+
+
+/*footer*/
+
+footer{
+	width: 320px;
+    background-color: black;
+}
+
+.footer{
+    width: 320px;
+}
+.header{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 21px;
+    height: 480px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    flex-wrap: wrap;
+	padding: 15px 10%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.nav_link{
+	list-style: none;
+}
+.nav_link li{
+	padding: 5px;
+}
+.nav_link li a{
+    font-size: 15px;
+    font-family:sans-serif;
+	text-decoration: none;
+	color: white;
+	transition: all 0.3s ease;
+}
+.nav_link li a:hover{
+	color: cornflowerblue;
+}
+
+input{
+    transition: 0.3s ease-in-out;
+    margin: 8px 30px;
+    padding: 10px;
+    width: 110px;
+    background: none;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    border: 1px solid cornflowerblue;
+}
+
+input:focus{
+    width: 210px;
+    border:cornflowerblue;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.knopka{
+    font-family: arial;
+    font-weight: bold;
+    background: cornflowerblue;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 210px;
+    color: white;
+    transition: 0.3s ease-in-out;
+    border-radius: 6px;
+}
+
+.knopka:hover{
+    color:cornflowerblue ;
+    background: white;
+    border: 1px solid white;
+}
+
+.pod_footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 320px;
+    border-top: 2px solid white;
+}
+.pod_footer p{
+    margin-left: 35px;
+    font-size: 14px;
+    line-height: 23px;
+    padding-top: 10px;
+    color: white;
+    font-family: sans-serif;
+
+}
+}
