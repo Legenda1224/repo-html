@@ -900,7 +900,7 @@ input:focus{
 }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 350px){
     /*Menu*/ 
 
 header{
@@ -910,7 +910,7 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: #75ACFF;
-    width: 350px;
+    width: 355px;
     height: 50px;
 }
 header h3 a{
@@ -944,7 +944,7 @@ header h3 a:hover{
 .container{
     border-radius:10px;
     background-color: white;
-    width: 350px;
+    width: 355px;
     max-width: 370px;
     margin: 0 auto;
     margin-top: 100px;
@@ -994,7 +994,7 @@ header h3 a:hover{
     padding-top:60px;
     text-align: center;
     font-family:arial ;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .istoriya p{
@@ -1051,7 +1051,7 @@ ul li{
 
 
 .footer{
-	width: 100%;
+	width: 355px;
     background-color: black;
 }
 
@@ -1059,19 +1059,19 @@ ul li{
 /*footer*/
 
 footer{
-	width: 350px;
+	width: 355px;
     background-color: black;
 }
 
 .footer{
-    width: 350px;
+    width: 355px;
 }
 .header{
     font-family: arial;
     font-weight: bold;
     font-size: 21px;
     height: 480px;
-    color: white;
+	color: white;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -1140,7 +1140,7 @@ input:focus{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 320px;
+    width: 355px;
     border-top: 2px solid white;
 }
 .pod_footer p{
