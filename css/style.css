@@ -1052,6 +1052,7 @@ input:focus{
 
 
 
+
 @media screen and (max-width: 576px){
 
     /*Menu*/ 
@@ -1097,17 +1098,17 @@ input:focus{
     
     .container{
         position: relative;
-        left: 60px;
+        left: 75px;
         border-radius:10px;
         background-color: white;
-        width: 590px;
-        max-width: 520px;
+        width: 630px;
+        max-width: 590px;
         margin: 0 auto;
         margin-top: 100px;
         margin-bottom: 50px;
     }
     .container2{
-        width: 500px;
+        width: 550px;
     }
     .d-flex_menu{
         display: flex;
@@ -1144,7 +1145,7 @@ input:focus{
     
     
     .istoriya{
-        max-width: 520px;
+        max-width: 610px;
         margin: 0 auto;
         width: 100%;
         padding-bottom: 30px;
