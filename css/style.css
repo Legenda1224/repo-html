@@ -1098,11 +1098,11 @@ input:focus{
     
     .container{
         position: relative;
-        left: 75px;
+        left: 0px;
         border-radius:10px;
         background-color: white;
-        width: 630px;
-        max-width: 590px;
+        width: 550px;
+        max-width: 640px;
         margin: 0 auto;
         margin-top: 100px;
         margin-bottom: 50px;
@@ -1145,7 +1145,7 @@ input:focus{
     
     
     .istoriya{
-        max-width: 610px;
+        max-width: 640px;
         margin: 0 auto;
         width: 100%;
         padding-bottom: 30px;
@@ -1311,7 +1311,6 @@ input:focus{
     
     }
     }
-
     
     @media screen and (max-width: 320px){
 
