@@ -792,8 +792,8 @@ header h3 a:hover{
     left: 0px;
     border-radius:10px;
     background-color: white;
-    width: 630px;
-    max-width: 630px;
+    width: 530px;
+    max-width: 530px;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -807,9 +807,9 @@ header h3 a:hover{
 
 
 .istoriya{
-    max-width: 580px;
+    max-width: 520px;
     margin: 0 auto;
-    width: 580px;
+    width: 520px;
     padding-bottom: 30px;
 }
 .istoriya h3{
@@ -876,7 +876,7 @@ footer{
 
 input{
     transition: 0.3s ease-in-out;
-    margin: 8px 220px;
+    margin: 8px 150px;
     padding: 10px;
     width: 120px;
     background: none;
@@ -973,11 +973,11 @@ header h3 a:hover{
 
 .container{
     position: relative;
-    left: 67px;
+    left: 0px;
     border-radius:10px;
     background-color: white;
-    width: 600px;
-    max-width: 600px;
+    width: 360px;
+    max-width: 360px;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -1018,9 +1018,9 @@ header h3 a:hover{
 
 
 .istoriya{
-    max-width: 480px;
+    max-width: 340px;
     margin: 0 auto;
-    width: 500px;
+    width: 340px;
     padding-bottom: 30px;
 }
 .istoriya h3{
@@ -1032,15 +1032,18 @@ header h3 a:hover{
 
 .istoriya p{
     font-family:sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 27px;
 }
 
 
 /*table*/
 
-
+table{
+    display: none;
+}
 .table{
+    display: none;
     font-family: arial;
     text-align: center;
     padding: 20px;
@@ -1049,9 +1052,11 @@ header h3 a:hover{
 }
 
 .table_links{
+    display: none;
     line-height: 28px;
 }
 .table_links2{
+    display: none;
     margin-top: -37px;
     line-height: 28px;
 }
@@ -1085,7 +1090,9 @@ footer{
     background-color: black;
 }
 
-
+h4{
+    display: none;
+}
 .header{
     font-family: arial;
     font-weight: bold;
@@ -1097,8 +1104,8 @@ footer{
 	justify-content: space-between;
 	align-items: center;
 	padding: 15px 10%;
-    max-width: 540px;
-    width: 540px;
+    max-width: 300px;
+    width: 300px;
     margin: 0 auto;
 }
 
@@ -1123,7 +1130,7 @@ footer{
 
 input{
     transition: 0.3s ease-in-out;
-    margin: 8px 220px;
+    margin: 8px 30px;
     padding: 10px;
     width: 120px;
     background: none;
@@ -1134,7 +1141,7 @@ input{
 }
 
 input:focus{
-    width: 178px;
+    width: 160px;
     border:cornflowerblue;
     border-radius: 6px;
     text-align: center;
@@ -1147,7 +1154,7 @@ input:focus{
     outline: none;
     border: none;
     cursor: pointer;
-    width: 200px;
+    width: 180px;
     color: white;
     transition: 0.3s ease-in-out;
     border-radius: 6px;
@@ -1175,7 +1182,6 @@ input:focus{
 
 }
 }
-
 
 @media screen and (max-width: 400px){
     /*Menu*/ 
@@ -1221,11 +1227,11 @@ input:focus{
     
     .container{
         position: relative;
-        left: 27px;
+        left: 5px;
         border-radius:10px;
         background-color: white;
-        width: 460px;
-        max-width: 460px;
+        width: 350px;
+        max-width: 350px;
         margin: 0 auto;
         margin-top: 100px;
         margin-bottom: 50px;
@@ -1266,29 +1272,32 @@ input:focus{
     
     
     .istoriya{
-        max-width: 430px;
+        max-width: 330px;
         margin: 0 auto;
-        width: 500px;
+        width: 330px;
         padding-bottom: 30px;
     }
     .istoriya h3{
         padding-top:60px;
         text-align: center;
         font-family:arial ;
-        font-size: 23px;
+        font-size: 20px;
     }
     
     .istoriya p{
         font-family:sans-serif;
-        font-size: 21px;
+        font-size: 19px;
         line-height: 27px;
     }
     
     
     /*table*/
-    
+    table{
+        display: none;
+    }
     
     .table{
+        display: none;
         font-family: arial;
         text-align: center;
         padding: 20px;
@@ -1297,9 +1306,11 @@ input:focus{
     }
     
     .table_links{
+        display: none;
         line-height: 28px;
     }
     .table_links2{
+        display: none;
         margin-top: -37px;
         line-height: 28px;
     }
@@ -1321,7 +1332,7 @@ input:focus{
     
     
     .footer{
-        width:128%;
+        width:100%;
         background-color: black;
     }
     
@@ -1329,7 +1340,7 @@ input:focus{
     /*footer*/
     
     footer{
-        width:128%;
+        width:100%;
         background-color: black;
     }
     
@@ -1345,8 +1356,8 @@ input:focus{
         justify-content: space-between;
         align-items: center;
         padding: 15px 10%;
-        max-width: 440px;
-        width: 440px;
+        max-width: 290px;
+        width: 290px;
         margin: 0 auto;
     }
     h4{
