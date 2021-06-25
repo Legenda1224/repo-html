@@ -1030,6 +1030,10 @@ input:focus{
 
 @media screen and (max-width: 400px){
    
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: white;
 }
