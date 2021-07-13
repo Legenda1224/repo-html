@@ -276,6 +276,12 @@ h5{
     line-height: 27px;
 }
 
+ul li {
+       font-size: 15px;
+       font-family: arial;
+       padding: 5px;
+}
+
 
 
 /*footer*/
@@ -384,10 +390,8 @@ input:focus{
 @media screen and (max-width: 1200px){
     
 .block{
-    background-color: #A8D0FF;
-    width: 250px;
+    width: 265px;
     height: 621px;
-    position:absolute;
     z-index: 100;
     left: 40px;
     margin-top: 30px;
@@ -458,7 +462,7 @@ input:focus{
 header{
     position: relative;
     left: -90px;
-    width: 900px;
+    width: 919px;
     height: 55px;
     z-index: 60;
 }
@@ -466,34 +470,19 @@ header{
 /*Содержание*/
 
 .soder{
-    border-left:5px solid #0EC96F;
-    background-color: #ebebeb;
     width: 400px;
     height: 240px;
-    position: relative;
     left: 120px;
     top:50px;
 }
 
 .pod_sod{
-    font-family: arial;
-    line-height: 30px;
-    color: black;
-    text-decoration: none;
-    position: relative;
     left: 10px;
     font-size: 16px;
-    transition: 0.3s;
-}
-.pod_sod:hover{
-    color: #0aa85c;
-    transform:scale(1.1);
+
 }
 h5{
     padding-top: 10px;
-    font-weight: bold;
-    font-family: arial;
-    text-align: center;
     font-size: 15px;
 }
 
@@ -515,8 +504,8 @@ h5{
 
 .istoriya{
     box-shadow: 0px 0px 4px 0px gray;
-    margin-top: -30px;
-    margin-left: 290px;
+    margin-top: -29px;
+    margin-left: 307px;
     background-color: white;
     width: 650px;
     padding-bottom: 20px;
@@ -542,33 +531,17 @@ ul li{
     line-height: 28px;
     padding: 5px;
     font-family: lora,serif;
-    font-size: 17px;
+    font-size: 15px;
 }
 
-
-.footer{
-	width: 100%;
-    background-color: black;
-}
 
 
 /*footer*/
 
-footer{
-	width: 100%;
-    background-color: black;
-}
-
 
 .header{
-    font-family: arial;
-    font-weight: bold;
     font-size: 21px;
     height: 250px;
-	color: white;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	padding: 15px 10%;
     max-width: 970px;
     margin: 0 auto;
@@ -576,78 +549,39 @@ footer{
 
 
 .nav_link li{
-    display: flex;
-    flex-direction: column;
 	padding: 5px;
 }
 .nav_link li a{
     font-size: 15px;
-    font-family:sans-serif;
-	text-decoration: none;
-	color: white;
-	transition: all 0.3s ease;
 }
 
 
 input{
-    transition: 0.3s ease-in-out;
     margin: 8px;
     padding: 10px;
     width: 120px;
-    text-align: center;
-    color: white;
-    border: 1px solid cornflowerblue;
 }
 
 input:focus{
     width: 228px;
-    border:cornflowerblue;
-    border-radius: 6px;
-    text-align: center;
 }
 
 .knopka{
-    font-family: arial;
-    font-weight: bold;
-    background: cornflowerblue;
-    outline: none;
-    border: none;
-    cursor: pointer;
     width: 250px;
     color: white;
-    transition: 0.3s ease-in-out;
-    border-radius: 6px;
 }
 
-.knopka:hover{
-    color:cornflowerblue ;
-    background: white;
-    border: 1px solid white;
-}
 
-.pod_footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    border-top: 2px solid white;
-}
 .pod_footer p{
     font-size: 15px;
-    line-height: 25px;
     padding-top: 10px;
-    color: white;
-    font-family: sans-serif;
-
 }
 }
 @media screen and (max-width: 992px){
 
 .block{
-    background-color: #A8D0FF;
-    width: 169px;
+    width: 196px;
     height: 621px;
-    position:absolute;
     left: 27px;
     margin-top: 30px;
 }
@@ -656,49 +590,33 @@ input:focus{
     font-family: arial;
     font-size: 14px;
     position: absolute;
-    left: 20px;
+    left: 10px;
     top:22px;
     color: #C70000;
 }
 .ap{
-    position: relative;
     top: 90px;
-    background: #4A7DFF;
     padding: 20px 20px;
     margin: 0px;
     border-bottom:2px solid orange ;
-    cursor: pointer;
 }
 .ap a{
-    font-family: sentury;
+    font-family: century;
     font-size: 14px;
     padding: 20px 0px;
-    text-decoration: none;
-    color: white;
-    transition: 0.3s ease-in-out;
 }
-.ap a:hover{
-    margin-left: 3px;
-    padding: 20px 20px;
-    color: orange;
-}
+
     
 /*shapka*/
     
 .shapka{
      position: relative;
      z-index: 59;
-    background-color: #0E0C78;
     width: 100%;
     height: 250px;
 }
 .zagolovok{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     height: 250px;
-    color: white;
 }
 .zagolovok h2{
     margin-top: -40px;
@@ -716,7 +634,7 @@ input:focus{
 header{
     position: relative;
     left: -103px;
-    width: 700px;
+    width: 765px;
     height: 55px;
     z-index: 60;
 }
@@ -724,34 +642,18 @@ header{
  /*Содержание*/
 
  .soder{
-    border-left:5px solid #0EC96F;
-    background-color: #ebebeb;
     width: 400px;
     height: 240px;
-    position: relative;
     left: 60px;
     top:50px;
 }
 
 .pod_sod{
-    font-family: arial;
-    line-height: 30px;
-    color: black;
-    text-decoration: none;
-    position: relative;
     left: 10px;
     font-size: 15px;
-    transition: 0.3s;
-}
-.pod_sod:hover{
-    color: #0aa85c;
-    transform:scale(1.1);
 }
 h5{
     padding-top: 10px;
-    font-weight: bold;
-    font-family: arial;
-    text-align: center;
     font-size: 15px;
 }
 
@@ -767,70 +669,46 @@ h5{
     
 }
 
-.d-flex_menu{
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .text{
     display: none;
 }
 
 .text a{
-display: none;
+       display: none;
 }
 
 
 /*istopiya*/
 
-
 .istoriya{
-    box-shadow: 0px 0px 4px 0px gray;
     margin-top: -30px;
-    margin-left: 196px;
-    background-color: white;
-    width: 530px;
+    margin-left: 222px;
+    width: 570px;
     padding-bottom: 20px;
 }
 .istoriya h3{
     padding-bottom: 10px;
     padding-top:100px;
-    text-align: center;
-    font-family:arial ;
     font-size: 22px;
 }
 
 .istoriya p{
     padding-left: 20px;
     padding-right: 20px;
-    font-family:sans-serif;
     font-size: 14px;
-    line-height: 27px;
 }
 
 
 ul li{
-    line-height: 28px;
+       margin-left: -3px;
     padding: 5px;
-    font-family: lora,serif;
-    font-size: 17px;
+    font-size: 15px;
 }
 
-
-.footer{
-	width:100%;
-    background-color: black;
-}
 
 
 /*footer*/
-
-footer{
-	width:100%;
-    background-color: black;
-}
 
 
 .header{
@@ -838,146 +716,85 @@ footer{
     font-weight: bold;
     font-size: 21px;
     height: 310px;
-	color: white;
 	display: flex;
     flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 15px 10%;
-    max-width: 600px;
+	padding: 15px 0%;
+    max-width: 400px;
     margin: 0 auto;
 }
-
-.nav_link{
-	list-style: none;
+h4{
+       display: none;
 }
+
 .nav_link li{
-    display: flex;
-    flex-direction: column;
-	padding: 5px;
+    padding: 5px;
 }
 .nav_link li a{
     font-size: 14px;
-    font-family:sans-serif;
-	text-decoration: none;
-	color: white;
-	transition: all 0.3s ease;
 }
 
 input{
-    transition: 0.3s ease-in-out;
-    margin: 8px 180px;
+    margin: 8px 40px;
     padding: 10px;
     width: 120px;
-    background: none;
-    border-radius: 6px;
-    text-align: center;
-    color: white;
-    border: 1px solid cornflowerblue;
 }
 
 input:focus{
     width: 210px;
-    border:cornflowerblue;
-    border-radius: 6px;
-    text-align: center;
 }
 
 .knopka{
-    font-family: arial;
-    font-weight: bold;
-    background: cornflowerblue;
-    outline: none;
-    border: none;
-    cursor: pointer;
     width: 230px;
-    color: white;
-    transition: 0.3s ease-in-out;
-    border-radius: 6px;
 }
 
-.knopka:hover{
-    color:cornflowerblue ;
-    background: white;
-    border: 1px solid white;
-}
 
-.pod_footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    border-top: 2px solid white;
-}
 .pod_footer p{
     font-size: 14px;
     line-height: 25px;
     padding-top: 10px;
-    color: white;
-    font-family: sans-serif;
-
 }
 }
 
 @media screen and (max-width: 768px){
 
 .block{
-    background-color: #A8D0FF;
     width: 169px;
     height: 621px;
-    position:absolute;
     left: 20px;
-    margin-top: 30px;
+    margin-top: 29px;
 }
     
 .velikie{
-    font-family: arial;
     font-size: 12px;
-    position: absolute;
     left: 15px;
     top:24px;
-    color: #C70000;
 }
 .ap{
-    position: relative;
     top: 90px;
-    background: #4A7DFF;
     padding: 20px 20px;
     margin: 0px;
     border-bottom:2px solid orange ;
-    cursor: pointer;
 }
 .ap a{
-    font-family: century;
     font-size: 14px;
     padding: 20px 0px;
-    text-decoration: none;
-    color: white;
-    transition: 0.3s ease-in-out;
 }
-.ap a:hover{
-    margin-left: 3px;
-    padding: 20px 20px;
-    color: orange;
-}
+
       
 /*shapka*/
     
 .shapka{
     background-color: #0E0C78;
     width: 100%;
-    height: 250px;  
+    height: 150px;  
 }
 .zagolovok{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     height: 250px;
-    color: white;
 }
 .zagolovok h2{
-    margin-top: -40px;
+    margin-top: -120px;
     font-size: 25px;
 }
     
@@ -991,7 +808,7 @@ input:focus{
 header{
     position: relative;
     left: -110px;
-    width: 540px;
+    width: 560px;
     height: 55px;
     z-index: 60;
 }
@@ -999,34 +816,19 @@ header{
  /*Содержание*/
 
  .soder{
-    border-left:5px solid #0EC96F;
-    background-color: #ebebeb;
     width: 300px;
     height: 240px;
-    position: relative;
-    left: 20px;
+    left: 30px;
     top:50px;
 }
 
 .pod_sod{
-    font-family: arial;
-    line-height: 30px;
-    color: black;
-    text-decoration: none;
-    position: relative;
     left: 10px;
     font-size: 14px;
-    transition: 0.3s;
 }
-.pod_sod:hover{
-    color: #0aa85c;
-    transform:scale(1.1);
-}
+
 h5{
     padding-top: 10px;
-    font-weight: bold;
-    font-family: arial;
-    text-align: center;
     font-size: 15px;
 }
 
@@ -1042,13 +844,6 @@ h5{
     
 }
 
-.d-flex_menu{
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .text{
     display: none;
 }
@@ -1060,133 +855,70 @@ h5{
 /*istopiya*/
 
 .istoriya{
-    box-shadow: 0px 0px 4px 0px gray;
-    margin-top: -30px;
+    margin-top: -29px;
     margin-left: 189px;
-    background-color: white;
-    width: 370px;
+    width: 390px;
     padding-bottom: 20px;
 }
 .istoriya h3{
     padding-bottom: 10px;
     padding-top:100px;
-    text-align: center;
-    font-family:arial ;
     font-size: 22px;
 }
 
 .istoriya p{
     padding-left: 20px;
     padding-right: 20px;
-    font-family:sans-serif;
     font-size: 14px;
-    line-height: 27px;
 }
-
-.footer{
-	width:100%;
-    background-color: black;
+ul li{
+       font-size: 14;
 }
 
 
 /*footer*/
 
-footer{
-    width:100%;
-    background-color: black;
-}
-
 
 .header{
-       font-family: arial;
-       font-weight: bold;
        font-size: 21px;
        height: 320px;
-       color: white;
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-       align-items: center;
        padding: 15px 10%;
-       max-width: 970px;
-       margin: 0 auto;
+       max-width: 350px;
 }
 
-.nav_link{
-	list-style: none;
-}
 .nav_link li{
-    display: flex;
-    flex-direction: column;
 	padding: 5px;
 }
 .nav_link li a{
     font-size: 14px;
-    font-family:sans-serif;
-       text-decoration: none;
-       color: white;
-       transition: all 0.3s ease;
-}
-.nav_link li a:hover{
-	color: cornflowerblue;
 }
 
+
 input{
-    transition: 0.3s ease-in-out;
-    margin: 8px 150px;
+    margin: 8px 40px;
     padding: 10px;
     width: 120px;
-    background: none;
-    border-radius: 6px;
-    text-align: center;
-    color: white;
-    border: 1px solid cornflowerblue;
 }
 
 input:focus{
     width: 178px;
-    border:cornflowerblue;
-    border-radius: 6px;
-    text-align: center;
 }
 
 .knopka{
-    font-family: arial;
-    font-weight: bold;
-    background: cornflowerblue;
-    outline: none;
-    border: none;
-    cursor: pointer;
     width: 200px;
-    color: white;
-    transition: 0.3s ease-in-out;
-    border-radius: 6px;
-}
-
-.knopka:hover{
-    color:cornflowerblue ;
-    background: white;
-    border: 1px solid white;
 }
 
 .pod_footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width:100%;
-    border-top: 2px solid white;
 }
 .pod_footer p{
     font-size: 15px;
-    line-height: 25px;
     padding-top: 10px;
-    color: white;
-    font-family: sans-serif;
-
 }
 }
 
 @media screen and (max-width: 576px){
+
 body{
     background-color: white;
 }
@@ -1207,18 +939,10 @@ body{
     top: 0;
     position: fixed;
     z-index: 100;
-    background-color: #0E0C78;
     width: 100%;
     height: 50px; 
 }
-.zagolovok{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 50px;
-    color: white;
-}
+
 .zagolovok h2{
     display: none;
 }
@@ -1238,35 +962,19 @@ header{
 /*Содержание*/
 
 .soder{
-    border-left:5px solid #0EC96F;
-    background-color: #ebebeb;
     width: 300px;
     height: 240px;
-    position: relative;
     left: 50px;
     top:90px;
 }
 
 .pod_sod{
-    font-family: arial;
-    line-height: 30px;
-    color: black;
-    text-decoration: none;
-    position: relative;
     left: 10px;
     font-size: 14px;
-    transition: 0.3s;
+}
 
-}
-.pod_sod:hover{
-    color: #0aa85c;
-    transform:scale(1.1);
-}
 h5{
     padding-top: 10px;
-    font-weight: bold;
-    font-family: arial;
-    text-align: center;
     font-size: 15px;
 }
 
@@ -1280,13 +988,6 @@ h5{
     margin-top: 30px;
     margin-bottom: 50px;
     
-}
-
-.d-flex_menu{
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .text{
@@ -1304,132 +1005,69 @@ h5{
     box-shadow: none;
     margin-top: -30px;
     margin-left: -12px;
-    background-color: white;
     width: 380px;
     padding-bottom: 20px;
 }
 .istoriya h3{
     padding-bottom: 10px;
     padding-top:100px;
-    text-align: center;
-    font-family:arial ;
     font-size: 19px;
 }
 
 .istoriya p{
     padding-left: 20px;
     padding-right: 20px;
-    font-family:sans-serif;
     font-size: 14px;
-    line-height: 27px;
 }
 ul li{
-     font-size: 16px;
+     font-size: 14px;
 }
 
-.footer{
-    width:100%;
-    background-color: black;
-}
 
 
 /*footer*/
 
-footer{
-    width:100%;
-    background-color: black;
-}
 
 h4{
     display: none;
 }
 .header{
-    font-family: arial;
-    font-weight: bold;
     font-size: 21px;
     height: 350px;
-	color: white;
-	display: flex;
-    flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	padding: 15px 10%;
+    padding: 15px 10%;
     max-width: 300px;
     width: 300px;
-    margin: 0 auto;
 }
 
-.nav_link{
-	list-style: none;
-}
+
 .nav_link li{
-    display: flex;
-    flex-direction: column;
 	padding: 5px;
 }
 .nav_link li a{
     font-size: 15px;
-    font-family:sans-serif;
-	text-decoration: none;
-	color: white;
-	transition: all 0.3s ease;
-}
-.nav_link li a:hover{
-	color: cornflowerblue;
 }
 
 input{
-    transition: 0.3s ease-in-out;
-    margin: 8px 30px;
+    margin: 8px 39px;
     padding: 10px;
     width: 120px;
-    background: none;
-    border-radius: 6px;
-    text-align: center;
-    color: white;
-    border: 1px solid cornflowerblue;
 }
 
 input:focus{
     width: 160px;
-    border:cornflowerblue;
-    border-radius: 6px;
-    text-align: center;
 }
 
 .knopka{
-    font-family: arial;
-    font-weight: bold;
-    background: cornflowerblue;
-    outline: none;
-    border: none;
-    cursor: pointer;
     width: 180px;
-    color: white;
-    transition: 0.3s ease-in-out;
-    border-radius: 6px;
 }
 
-.knopka:hover{
-    color:cornflowerblue ;
-    background: white;
-    border: 1px solid white;
-}
 
 .pod_footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width:100%;
-    border-top: 2px solid white;
 }
 .pod_footer p{
     font-size: 15px;
-    line-height: 25px;
     padding-top: 10px;
-    color: white;
-    font-family: sans-serif;
-
 }
 }
 
@@ -1444,60 +1082,30 @@ body{
     top: 0;
     position: fixed;
     z-index: 100;
-    background-color: #0E0C78;
-    width: 100%;
-    height: 50px; 
 }
-.zagolovok{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 50px;
-    color: white;
-}
-.zagolovok h2{
-    display: none;
-}
-    
-.zagolovok p{
-    display: none;
-}
-
 
  /*Содержание*/
 
 .soder{
-    background-color: #ebebeb;
     width: 250px;
     height: 250px;
-    position: relative;
-    left: 30px;
+    left: 0px;
     top:30px;
 }
 
 .pod_sod{
-    font-family: arial;
-    line-height: 30px;
-    color: black;
-    text-decoration: none;
-    position: relative;
-    left: 10px;
     font-size: 13px;
 }
 
 h5{
     padding-top: 20px;
-    font-weight: bold;
-    font-family: arial;
-    text-align: center;
 }   
 
 /*conainer*/
     
 .container{
-    width: 330px;
-    max-width: 330px;
+    width: 260px;
+    max-width: 260px;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 50px;
@@ -1507,58 +1115,35 @@ h5{
     
     
 .istoriya{
-    max-width: 320px;
+    max-width: 250px;
     margin: 0 auto;
-    width: 320px;
-    padding-bottom: 30px;
+    width: 250px;
 }
 .istoriya h3{
     padding-top:60px;
-    text-align: center;
-    font-family:arial ;
     font-size: 20px;
 }
     
 .istoriya p{
-    font-family:sans-serif;
     font-size: 16px;
     line-height: 27px;
 }
     
 ul li{
-    line-height: 28px;
     padding: 5px;
-    font-family: lora,serif;
-    font-size: 16px;
+    font-size: 14px;
 }
     
-.footer{
-     width:100%;
-    background-color: black;
-}
-    
+
 /*footer*/
-    
-footer{
-    width:100%;
-    background-color: black;
-}
-    
-    
+
+
 .header{
-    font-family: arial;
-    font-weight: bold;
-    font-size: 21px;
-    height: 350px;
-    color: white;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 10%;
-    max-width: 240px;
+    height: 480px;
+    display: inline-block;
+    padding: 15px 0%;
+    max-width: 250px;
     width: 250px;
-    margin: 0 auto;
 }
 
 .nav_link li a{
@@ -1566,47 +1151,10 @@ footer{
 }
 
 input{
-    transition: 0.3s ease-in-out;
-    margin: 8px 32px;
-    padding: 10px;
-    width: 120px;
-    background: none;
-    border-radius: 6px;
-    text-align: center;
-    color: white;
-    border: 1px solid cornflowerblue;
+    margin: 8px 30px;
 }
-    
-input:focus{
-    width: 150px;
-    border:cornflowerblue;
-    border-radius: 6px;
-    text-align: center;
-}
-    
-.knopka{
-    cursor: pointer;
-    width: 170px;
-    color: white;
-    transition: 0.3s ease-in-out;
-    border-radius: 6px;
-}
-    
-.knopka:hover{
-    color:cornflowerblue ;
-    background: white;
-    border: 1px solid white;
-}
-    
-.pod_footer{
-    width:100%;
-    border-top: 2px solid white;
-}
+       
 .pod_footer p{
      font-size: 14px;
-    line-height: 25px;
-    padding-top: 10px;
-    color: white;
-    font-family: sans-serif;
 }
 }
