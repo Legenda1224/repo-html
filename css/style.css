@@ -8,6 +8,16 @@ body{
     background-color: #F3F3F3;
 }
 
+/*strelka*/
+
+.strelka-img2{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 1240px;
+    top: 570px;
+}
+
 nav{
     padding: 0;
     margin: 0;
@@ -20,12 +30,10 @@ nav{
 }
 
 .menu li{
-    
     display: inline-block;
 }
 
 .menu li a{
-    
   display: block;
   padding: 10px 15px;
   color: #fff;
@@ -39,7 +47,6 @@ nav{
 }
 
 .menuToggle{  
-    
     margin-left: 260px;
     color: #fff;
     padding: 10px 8px;
@@ -317,9 +324,14 @@ h5{
     font-size: 17px;
     line-height: 27px;
 }
-
+.index-img{
+    position: relative;
+    left: 20px;
+    width: 650px;
+}
 ul li {
-    font-size: 15px;
+    color: rgb(4, 128, 51);
+    font-size: 16px;
     font-family: arial;
     padding: 5px;
 }
@@ -429,7 +441,7 @@ input:focus{
 
 
 @media screen and (max-width: 1200px){
-    
+
 .block{
     width: 265px;
     height: 621px;
@@ -566,7 +578,11 @@ h5{
     line-height: 27px;
 }
 
-
+.index-img{
+    position: relative;
+    left: 20px;
+    width: 600px;
+}
 ul li{
     line-height: 28px;
     padding: 5px;
@@ -813,7 +829,11 @@ h5{
     font-size: 14px;
 }
 
-
+.index-img{
+    position: relative;
+    left: 20px;
+    width: 490px;
+}
 ul li{
     margin-left: -3px;
     padding: 5px;
@@ -1033,6 +1053,11 @@ h5{
     padding-left: 20px;
     padding-right: 20px;
     font-size: 14px;
+}
+.index-img{
+    position: relative;
+    left: 20px;
+    width: 340px;
 }
 ul li{
     font-size: 14px;
@@ -1435,7 +1460,11 @@ h5{
     font-size: 16px;
     line-height: 27px;
 }
-
+.index-img{
+    position: relative;
+    left: 0px;
+    width: 300px;
+}
 ul li{
     margin-left: -20px;
     padding: 5px;
