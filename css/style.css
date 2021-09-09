@@ -754,10 +754,14 @@ footer{
 }
 
 
+
 @media (max-width: 400px){
 
+.zagolovok{
+    padding-top: 0px;
+}
 .zagolovok h3{
-    font-size: 35px;
+    font-size: 37px;
     color: white;
 }
 .zagolovok p{
@@ -767,9 +771,10 @@ footer{
     font-size: 17px;
 }
 .zagolovok span{
+    width: 250px;
     padding: 5px;
-    margin-top: 40px;
-    font-size: 14px;
+    margin-top: 10px;
+    font-size: 15px;
     font-weight: 700;
 }
 
