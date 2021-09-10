@@ -238,15 +238,16 @@ header{
 }
 
 .knopka a:hover{
-    color:#042348;
-    background: cornflowerblue;
+    box-shadow: 0px 0px 10px 0px #00e1ff, 0px 0px 20px 0px #00e1ff;
+    color:#ffffff;
+    background: rgb(0, 136, 199);
 }
 
 
 .strelka{
     position: fixed;
     z-index: 40;
-    right: 40px;
+    right: 15px;
     bottom: 40px;
     background: #042348;
     width: 55px;
@@ -361,16 +362,54 @@ header{
 }
 
 .img-ysheniki{
+    border: 3px solid #042348;
     border-radius: 5px;
-    margin: 10px;
+    margin: 20px;
     width: 350px;
     height: 250px;
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .img-ysheniki:hover{
+    box-shadow: 0px 0px 10px 0px #042348;
+    transform: scale(1.2);
+}
+
+/* .img-ysheniki_2{
+    border-radius: 5px;
+    margin: 10px;
+    width: 350px;
+    height: 300px;
+    transition: 0.2s ease-in-out;
+}
+
+.img-ysheniki_2:hover{
     transform: scale(1.1);
 }
+
+.img-ysheniki_3{
+    border-radius: 5px;
+    margin: 10px;
+    width: 350px;
+    height: 300px;
+    transition: 0.2s ease-in-out;
+}
+
+.img-ysheniki_3:hover{
+    transform: scale(1.1);
+}
+
+.img-ysheniki_4{
+    border-radius: 5px;
+    margin: 10px;
+    width: 350px;
+    height: 350px;
+    transition: 0.2s ease-in-out;
+}
+
+.img-ysheniki_4:hover{
+    transform: scale(1.1);
+} */
 
 
 
@@ -565,6 +604,14 @@ footer{
 }
 
 
+@media (max-width: 1200px){
+.img-ysheniki:hover{
+    transform: scale(1.0);
+}
+}
+
+
+
 @media (max-width: 1061px){
 
 /*raspisanie*/
@@ -635,6 +682,7 @@ footer{
 }
 
 @media (max-width: 991px){
+
 .strelka{
     right: 20px;
     bottom: 20px;
@@ -656,6 +704,7 @@ footer{
 }
 
 @media (max-width: 786px){
+
 .zagolovok{
     padding-left: 50px;
     padding-right: 50px;
@@ -675,8 +724,41 @@ footer{
     margin-top: 40px;
     font-size: 25px;
 }
-
 }
+
+@media (max-width: 575px){
+
+.strelka{
+    right: 20px;
+    bottom: 20px;
+    width: 45px;
+    height: 45px;
+}
+
+.strelka::before{
+    transform: rotate(140deg);
+    left: 4px;
+    top: 18px;
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 4px;
+    background: white;
+}
+
+
+.strelka::after{
+    transform: rotate(38deg);
+    left: 19px;
+    top: 18px;
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 4px;
+    background: white;
+}
+}
+
 
 @media (max-width: 460px){
     
@@ -694,6 +776,65 @@ footer{
     padding: 10px;
     margin-top: 40px;
     font-size: 17px;
+}
+
+/*raspisanie*/
+
+.cont_raspisanie{
+    margin-top:100px;
+}
+.raspisanie h3{
+    color: #042348;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: arial;
+}
+
+.d-flex-raspisanie{
+    box-shadow: none;
+    padding-top: 50px;
+    padding-bottom: 0px;
+   
+}
+
+.ponid{
+    margin-bottom: 50px;
+}
+.ponid:hover{
+    transform: scale(1.0);
+    background: #042348;
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgb(34, 34, 34);
+    border: 5px solid rgb(249, 253, 5);
+}
+
+
+
+.sreda{
+    margin: 0px 0px ;
+    margin-bottom: 50px;
+}
+.sreda:hover{
+    transform: scale(1.0);
+    background: #042348;
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgb(34, 34, 34);
+    border: 5px solid rgb(249, 253, 5);
+}
+
+
+
+.subot{
+    margin-bottom: 50px;
+}
+.subot:hover{
+    transform: scale(1.0);
+    background: #042348;
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgb(34, 34, 34);
+    border: 5px solid rgb(249, 253, 5);
 }
 
 
@@ -756,8 +897,6 @@ footer{
     left: 0px;
     font-size: 16px;
 }
-    
-
 }
 
 
@@ -899,5 +1038,4 @@ footer{
     font-size: 19px;
 }
 }
-
 
