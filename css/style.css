@@ -390,28 +390,6 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Обучение*/
 
 .container2{
@@ -765,17 +743,50 @@ footer{
 @media (max-width: 1200px){
 
 .zagolovok{
-    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100vh;
+    padding-top: 100px;
+    font-family: arial;
+    text-align: center;
+}
+
+.zagolovok h3{
+    position: relative;
+    top:100px;
+    left: 0px;
+    animation: anim 2s;
+    font-size: 70px;
+    color: white;
+}
+
+.zagolovok p{
+    animation: anim2 4s;
+    line-height: 32px;
+    position: relative;
+    top:50px;
+    left: 0px;
+    font-size: 20px;
+    color: white;
+}
+.zagolovok span{
+    padding: 10px;
+    animation: anim4 6s infinite;
+    position: relative;
+    top:100px;
+    left: 0px;
+    font-size: 35px;
+    color:rgb(190, 6, 6);
+    box-shadow: 0px 0px 10px 10px #042348;
 }
 
 .arrow-7 {
     position: relative;
-    top: 110px;
+    top: 120px;
     margin: 0px auto 10px auto;
     width: 38px;
     height: 100px;
 }
-
 
 .img-ysheniki:hover{
     transform: scale(1.0);
@@ -867,20 +878,28 @@ footer{
 }
 
 .zagolovok{
-    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100vh;
+    padding-top: 100px;
+    font-family: arial;
+    text-align: center;
 }
 
 .zagolovok h3{
-    top:50px;
+    position: relative;
+    top:100px;
     left: 0px;
-    font-size: 50px;
+    animation: anim 2s;
+    font-size: 60px;
+    color: white;
 }
 
 .zagolovok p{
     animation: anim2 4s;
     line-height: 32px;
     position: relative;
-    top:20px;
+    top:50px;
     left: 0px;
     font-size: 20px;
     color: white;
@@ -889,15 +908,16 @@ footer{
     padding: 10px;
     animation: anim4 6s infinite;
     position: relative;
-    top:60px;
+    top:100px;
     left: 0px;
     font-size: 30px;
     color:rgb(190, 6, 6);
     box-shadow: 0px 0px 10px 10px #042348;
 }
+
 .arrow-7 {
     position: relative;
-    top: 110px;
+    top: 150px;
     margin: 0px auto 10px auto;
     width: 38px;
     height: 100px;
@@ -907,40 +927,49 @@ footer{
 @media (max-width: 786px){
 
 .zagolovok{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100vh;
+    padding-top: 30px;
+    font-family: arial;
+    text-align: center;
 }
 
 .zagolovok h3{
     position: relative;
-    top:50px;
+    top:100px;
     left: 0px;
-    font-size: 43px;
+    animation: anim 2s;
+    font-size: 60px;
+    color: white;
 }
 
 .zagolovok p{
     animation: anim2 4s;
-    line-height: 26px;
+    line-height: 32px;
     position: relative;
-    top:20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    top:60px;
     left: 0px;
-    font-weight: 700;
-    font-size: 15px;
+    font-size: 18
+    9px;
     color: white;
 }
 .zagolovok span{
     padding: 10px;
     animation: anim4 6s infinite;
     position: relative;
-    top:100px;
+    top:120px;
     left: 0px;
     font-size: 25px;
     color:rgb(190, 6, 6);
     box-shadow: 0px 0px 10px 10px #042348;
 }
+
 .arrow-7 {
     position: relative;
-    top: 150px;
+    top: 115px;
     margin: 0px auto 10px auto;
     width: 38px;
     height: 100px;
@@ -951,43 +980,49 @@ footer{
 @media (max-width: 575px){
 
 .zagolovok{
-    padding-top: 90px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100vh;
+    padding-top: 50px;
+    font-family: arial;
+    text-align: center;
 }
 
 .zagolovok h3{
     position: relative;
-    top:50px;
+    top:100px;
     left: 0px;
-    font-size: 43px;
+    animation: anim 2s;
+    font-size: 55px;
+    color: white;
 }
 
 .zagolovok p{
-    margin-left: 50px;
-    margin-right: 50px;
     animation: anim2 4s;
-    line-height: 26px;
+    line-height: 32px;
     position: relative;
-    top:20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    top:60px;
     left: 0px;
-    font-weight: 700;
-    font-size: 15px;
+    font-size: 18
+    9px;
     color: white;
 }
 .zagolovok span{
     padding: 10px;
     animation: anim4 6s infinite;
     position: relative;
-    top:50px;
+    top:120px;
     left: 0px;
     font-size: 20px;
     color:rgb(190, 6, 6);
     box-shadow: 0px 0px 10px 10px #042348;
 }
+
 .arrow-7 {
     position: relative;
-    top: 90px;
+    top: 115px;
     margin: 0px auto 10px auto;
     width: 38px;
     height: 100px;
@@ -1028,43 +1063,49 @@ footer{
 @media (max-width: 460px){
     
 .zagolovok{
-    padding-top: 90px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100vh;
+    padding-top: 50px;
+    font-family: arial;
+    text-align: center;
 }
 
 .zagolovok h3{
     position: relative;
-    top:50px;
+    top:100px;
     left: 0px;
-    font-size: 43px;
+    animation: anim 2s;
+    font-size: 45px;
+    color: white;
 }
 
 .zagolovok p{
-    margin-left: 40px;
-    margin-right: 40px;
     animation: anim2 4s;
-    line-height: 26px;
+    line-height: 32px;
     position: relative;
-    top:20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    top:80px;
     left: 0px;
-    font-weight: 700;
-    font-size: 15px;
+    font-size: 18
+    9px;
     color: white;
 }
 .zagolovok span{
     padding: 10px;
     animation: anim4 6s infinite;
     position: relative;
-    top:50px;
+    top:120px;
     left: 0px;
     font-size: 20px;
     color:rgb(190, 6, 6);
     box-shadow: 0px 0px 10px 10px #042348;
 }
+
 .arrow-7 {
     position: relative;
-    top: 90px;
+    top: 121px;
     margin: 0px auto 10px auto;
     width: 38px;
     height: 100px;
@@ -1203,27 +1244,31 @@ footer{
 @media (max-width: 400px){
 
 .zagolovok{
-    padding-top: 90px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100vh;
+    padding-top: 50px;
+    font-family: arial;
+    text-align: center;
 }
 
 .zagolovok h3{
     position: relative;
-    top:50px;
+    top:100px;
     left: 0px;
+    animation: anim 2s;
     font-size: 35px;
+    color: white;
 }
 
 .zagolovok p{
+    animation: anim2 4s;
+    line-height: 32px;
+    position: relative;
     margin-left: 0px;
     margin-right: 0px;
-    animation: anim2 4s;
-    line-height: 26px;
-    position: relative;
-    top:50px;
+    top:80px;
     left: 0px;
-    font-weight: 700;
     font-size: 16px;
     color: white;
 }
@@ -1231,15 +1276,16 @@ footer{
     padding: 10px;
     animation: anim4 6s infinite;
     position: relative;
-    top:80px;
+    top:180px;
     left: 0px;
     font-size: 16px;
     color:rgb(190, 6, 6);
     box-shadow: 0px 0px 10px 10px #042348;
 }
+
 .arrow-7 {
     position: relative;
-    top: 80px;
+    top: 180px;
     margin: 0px auto 10px auto;
     width: 38px;
     height: 100px;
@@ -1359,7 +1405,7 @@ footer{
 }
 
 
-@media (max-height: 320px){
+/* @media (max-height: 320px){
 
 .fon{
     height: 100%;
@@ -1384,8 +1430,7 @@ footer{
     font-size: 15px;
     font-weight: 700;
 }
-}
-
+} */
 
 
 
