@@ -1358,21 +1358,21 @@ footer{
 }
 }
 
-@media (max-height: 1000px){
+@media (max-height: 350px){
 
 .fon{
     height: 100%;
 }
 
 .zagolovok{
-    padding-top: 320px;
+    padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .zagolovok h3{
     position: relative;
-    top:50px;
+    top:0px;
     left: 0px;
     font-size: 35px;
 }
