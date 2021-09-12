@@ -1359,30 +1359,48 @@ footer{
 }
 
 
-@media (max-height: 320px){
+@media (min-height: 320px){
 
-.fon{
-    height: 100%;
+
+    
+.zagolovok{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .zagolovok h3{
-    padding-top:25px;
-    font-size: 30px;
+    position: relative;
+    top:50px;
+    left: 0px;
+    font-size: 35px;
 }
 
 .zagolovok p{
-    width: 320px;
-    line-height: 22px;
-    margin-top: -20px;
-    font-size: 17px;
-}
-
-.zagolovok span{
-    width: 250px;
-    padding: 5px;
-    margin-top: 0px;
-    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    animation: anim2 4s;
+    line-height: 26px;
+    position: relative;
+    top:20px;
+    left: 0px;
     font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+.zagolovok span{
+    padding: 10px;
+    animation: anim4 6s infinite;
+    position: relative;
+    top:30px;
+    left: 0px;
+    font-size: 17px;
+    color:rgb(190, 6, 6);
+    box-shadow: 0px 0px 10px 10px #042348;
+}
+.arrow-7 {
+    display: none;
+
 }
 }
 
