@@ -1358,7 +1358,7 @@ footer{
 }
 }
 
-@media (max-height: 500px){
+@media (max-height: 1000px){
 
 .fon{
     height: 100%;
