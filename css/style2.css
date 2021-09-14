@@ -17,6 +17,16 @@ a:hover{
    color: #24d800;
 }
 
+.scroll{
+    opacity: 0;
+    transform: translateY(20px);
+}
+.scroll.element-show{
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+
 /*Бургер меню*/
 
 .burger-menu{
