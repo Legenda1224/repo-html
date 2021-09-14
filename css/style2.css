@@ -17,21 +17,7 @@ a:hover{
    color: #24d800;
 }
 
-.scroll{
-    opacity: 0;
-    transform: translateY(20px);
-}
-.scroll.element-show{
-    opacity: 1;
-    transition: all 1.5s;
-    transform: translateY(0%);
-}
-
 /*Бургер меню*/
-
-.burger-menu{
-    display: none;
-}
 
 .burger-menu{
     display: none;
@@ -61,7 +47,7 @@ a:hover{
     position: absolute;
     width: 35px;
     height: 3px;
-    background-color: #ffffff;
+    background-color: #042348;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
@@ -93,11 +79,13 @@ a:hover{
 }
 
 .burger-menu_active .burger-menu_lines::before {
+    background-color: white;
     top: 0;
     transform: rotate(45deg);
 }
 
 .burger-menu_active .burger-menu_lines::after{
+    background-color: white;
     width: 35px;
     top: 0;
     transform: rotate(-45deg);
@@ -166,7 +154,15 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
+.scroll{
+    opacity: 0;
+    transform: translateY(20px);
+}
+.scroll.element-show{
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
 
 /*Шапка сайта*/
 
@@ -238,6 +234,47 @@ header{
     background-color: rgb(255, 224, 99);
 }
 
+/*strelka*/
+
+.strelka{
+    position: fixed;
+    z-index: 40;
+    right: 15px;
+    bottom: 40px;
+    background: #042348;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.strelka::before{
+    transform: rotate(145deg);
+    left: 6px;
+    top: 22px;
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    background: white;
+}
+
+.strelka::after{
+    transform: rotate(38deg);
+    left: 24px;
+    top: 22px;
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    background: white;
+}
+
+.strelka:hover{
+   box-shadow: 0px 0px 10px 5px #042348;
+}
+
+
 .container5{
     max-width: 1200px;
     padding-left: 50px;
@@ -250,11 +287,8 @@ header{
     transition: 0.3s ease-in-out;
     margin-top: 120px;
     width: 400px;
-    height: 400px;
-    border-radius:100px;
-}
-.pod_block_img:hover{
-    transform: scale(1.1);
+    height: 450px;
+    border-radius:100%;
 }
 .pod_fon{
     display: flex;
@@ -270,8 +304,9 @@ header{
 
 
 .pod_fon p{
+    text-align: center;
     font-family: arial;
-    margin-top: -50px;
+    margin-top: -40px;
     font-size: 20px;
 }
 
